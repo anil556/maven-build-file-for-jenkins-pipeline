@@ -16,5 +16,3 @@ pipeline {
                 // check with "steps"
             }
         }
-    }
-    }
