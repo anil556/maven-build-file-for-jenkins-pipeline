@@ -2,19 +2,18 @@ pipeline {
     agent any 
     stages {
         stage('Build') { 
-            echo "anil" {
-                // 
+            steps {
+                // this is "Anil"
             }
         }
         stage('Test') { 
-            echo "ani" {
-                // 
+            steps {
+                // this is "khobra"
             }
         }
         stage('Deploy') { 
-            echo "khobra" {
-                // 
+            steps {
+                // check with "steps"
             }
         }
     }
-}
