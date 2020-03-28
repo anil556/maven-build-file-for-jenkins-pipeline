@@ -1,0 +1,8 @@
+node{
+     stage('SCM Checkout'){
+      git 'https://github.com/anil556/maven-build-file-for-jenkins-pipeline'
+      }
+      stage('Compile-Package'){
+      sh 'mvn package'
+      }
+     }
